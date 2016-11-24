@@ -12,11 +12,11 @@ module.exports = {
 
 			for(var count = 2; count< array_of_numbers.length;count++){
 			   if(array_of_numbers[count] !== (array_of_numbers[0] + (count*common_diff))){
-          arith_check += 1;
-         }
-         if(array_of_numbers[count] !== array_of_numbers[0]*(Math.pow(ratio, (count)))){
-          geo_check +=1;
-         }
+                 arith_check += 1;
+         	   }
+	           if(array_of_numbers[count] !== array_of_numbers[0]*(Math.pow(ratio, (count)))){
+	             geo_check +=1;
+	           }
 			}
 			
 			if(arith_check === 0){
