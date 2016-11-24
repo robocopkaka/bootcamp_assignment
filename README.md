@@ -1,4 +1,4 @@
-# Workdone
+# Work done
 
 ## aritGeo
 > Wrote code that checks if numbers in an array follow either an arithmetic or geometric progression or neither. The code can be found in `apps/arithGeo.js`

@@ -1,7 +1,7 @@
 module.exports = {
 	aritGeo:function(array_of_numbers){
 		if(array_of_numbers.length === 0){
-			return 0;
+			return 0; 
 		}
 
 		else{
